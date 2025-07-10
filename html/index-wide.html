@@ -1414,7 +1414,7 @@
 <span id="cb11-8"><a href="#cb11-8"></a><span class="op">}</span></span></code></pre></div>
 <p>Perfecto. Hemos almacenado un valor. Vamos a imprimirlo.</p>
 <p>Lo vamos a hacer pasando dos argumentos asombrosos a la función <code>printf()</code>. El primer argumento es una cadena que describe qué imprimir y cómo imprimirlo (llamado <em>cadena de formato</em> [<em>format string</em>]), y el segundo es el valor a imprimir, es decir, lo que sea que esté en la variable <code>i</code>.</p>
-<p><code>printf()</code> busca a través de la cadena de formato en busca de diversas secuencias especiales que comienzan con un signo de porcentaje (<code>%</code>) y que le indican qué imprimir. Por ejemplo, si encuentra <code>%d</code>, busca el siguiente parámetro que se le pasó y lo imprime como un entero. Si encuentra <code>%s</code>, imprime el valor como un flotante. Si encuentra <code>%s</code>, imprime una cadena.</p>
+<p><code>printf()</code> busca a través de la cadena de formato en busca de diversas secuencias especiales que comienzan con un signo de porcentaje (<code>%</code>) y que le indican qué imprimir. Por ejemplo, si encuentra <code>%d</code>, busca el siguiente parámetro que se le pasó y lo imprime como un entero. Si encuentra <code>%f</code>, imprime el valor como un flotante. Si encuentra <code>%s</code>, imprime una cadena.</p>
 <p>De esta manera, podemos imprimir el valor de varios tipos de la siguiente manera:</p>
 <div class="sourceCode" id="cb12"><pre class="sourceCode numberSource c numberLines"><code class="sourceCode c"><span id="cb12-1"><a href="#cb12-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
 <span id="cb12-2"><a href="#cb12-2"></a></span>
